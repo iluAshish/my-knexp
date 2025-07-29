@@ -1,0 +1,133 @@
+{
+    "menu": [
+        {
+            "menuHeader": "Application"
+        },
+        {
+            "url": "admin/dashboard",
+            "name": "Dashboard",
+            "icon": "menu-icon tf-icons ti ti-dashboard",
+            "slug": "dashboard.index"
+        },
+        {
+            "url": "admin/users",
+            "name": "User Management",
+            "icon": "menu-icon tf-icons ti ti-users",
+            "slug": "user.list"
+        },
+        {
+            "url": "admin/customers",
+            "name": "Customer Management",
+            "icon": "menu-icon tf-icons ti ti-id-badge",
+            "slug": "customer.list"
+        },
+        {
+            "url": "admin/orders",
+            "name": "Orders",
+            "icon": "menu-icon tf-icons ti ti-shopping-cart",
+            "slug": "order.list"
+        },
+        {
+            "url": "admin/shipments",
+            "name": "Shipments",
+            "icon": "menu-icon tf-icons ti ti-truck",
+            "slug": "shipment.list"
+        },
+        {
+            "url": "admin/branches",
+            "name": "Branch Management",
+            "icon": "menu-icon tf-icons ti ti-direction",
+            "slug": "branch.list"
+        },
+        {
+            "url": "admin/dates",
+            "name": "Week Date",
+            "icon": "menu-icon tf-icons ti ti-calendar",
+            "slug": "datelockdate.list"
+        },
+        {
+            "url": "admin/days",
+            "name": "Week Day",
+            "icon": "menu-icon tf-icons ti ti-calendar-event",
+            "slug": "datelockweek.list"
+        },
+        {
+            "name": "Roles & Permissions",
+            "icon": "menu-icon tf-icons ti ti-lock",
+            "slug": "role.index",
+            "submenu": [
+                {
+                    "url": "admin/role",
+                    "name": "Roles",
+                    "slug": "role.index"
+                }
+            ]
+        },
+        {
+            "url": "admin/notifications",
+            "name": "Notifications",
+            "icon": "menu-icon tf-icons ti ti-bell",
+            "slug": "notification.list"
+        },
+        {
+            "url": "admin/reports",
+            "name": "Reports",
+            "icon": "menu-icon tf-icons ti ti-chart-pie",
+            "slug": "report.list"
+        },
+        {
+            "url": "admin/delivery-comments",
+            "name": "Delivery Comments",
+            "icon": "menu-icon tf-icons ti ti-pencil",
+            "slug": "deliverycomment.list"
+        },
+        {
+            "menuHeader": "CMS"
+        },
+        {
+            "name": "Home",
+            "icon": "menu-icon tf-icons ti ti-home",
+            "slug": "slider.index",
+            "submenu": [
+                {
+                    "url": "admin/home/slider",
+                    "name": "Slider",
+                    "slug": "slider.index"
+                },
+                {
+                    "url": "admin/home/keyfeature",
+                    "name": "Key Feature",
+                    "slug": "keyfeature.index"
+                },
+                {
+                    "url": "admin/home/whychooseus",
+                    "name": "Why Choose Us",
+                    "slug": "whychooseus.index"
+                },
+                {
+                    "url": "admin/home/about-us",
+                    "name": "About Us",
+                    "slug": "about-us.index"
+                }
+            ]
+        },
+        {
+            "url": "admin/service",
+            "name": "Services",
+            "icon": "menu-icon tf-icons ti ti-car",
+            "slug": "service.index"
+        },
+        {
+            "url": "admin/enquiries",
+            "name": "Enquiries",
+            "icon": "menu-icon tf-icons ti ti-mail",
+            "slug": "enquiry.list"
+        },
+        {
+            "url": "admin/siteinformation",
+            "name": "Site Settings",
+            "icon": "menu-icon tf-icons ti ti-settings",
+            "slug": "siteinformation.index"
+        }
+    ]
+}
